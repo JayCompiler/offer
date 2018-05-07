@@ -6,14 +6,14 @@ import java.util.Stack;
 public class _26Convert {
 
 	public static void main(String[] args) {
-		ArrayList<Integer> arrayList=new ArrayList<>();
+		//ArrayList<Integer> arrayList=new ArrayList<>();
 		TreeNode aNode=new TreeNode(10);
-		TreeNode bnode=aNode.left=new TreeNode(6);
-		TreeNode cnode=aNode.right=new TreeNode(14);
-		TreeNode dnode=bnode.left=new TreeNode(4);
-		TreeNode enode=bnode.right=new TreeNode(8);
-		TreeNode fNode=cnode.left=new TreeNode(12);
-		TreeNode gNode=cnode.right=new TreeNode(16);
+//		TreeNode bnode=aNode.left=new TreeNode(6);
+//		TreeNode cnode=aNode.right=new TreeNode(14);
+//		TreeNode dnode=bnode.left=new TreeNode(4);
+//		TreeNode enode=bnode.right=new TreeNode(8);
+//		TreeNode fNode=cnode.left=new TreeNode(12);
+//		TreeNode gNode=cnode.right=new TreeNode(16);
 		TreeNode rTreeNode= Convert(aNode);
 		while(rTreeNode!=null) {
 			System.out.println(rTreeNode.val);

@@ -20,7 +20,7 @@ public class _27Permutation {
 	            PermutationHelper(str.toCharArray(), 0, res);
 	            Collections.sort(res);
 	        }
-	        return (ArrayList)res;
+	        return (ArrayList<String>)res;
 	    }
 	 
 	    public static void PermutationHelper(char[] cs, int i, List<String> list) {

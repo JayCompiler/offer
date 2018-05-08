@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class _45LastRemaining {
 
 	public static void main(String[] args) {
-		//System.out.println(3%5);
 		int a=LastRemaining_Solution(5, 2);
 		System.out.println(a);
 	}
